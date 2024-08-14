@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Vieira - Desenvolvedor Front-end</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">Guilherme Vieira</div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="./assets/god-of-war.png" alt="God of War Ragnarok">
+                    <img src="./assets/refrigerante-do-dev.png" alt="Refrigerante do Dev">
+                    <img src="./assets/microsoft-img.jpeg" alt="Microsoft">
+                    <img src="./assets/GTAV-img.jpeg" alt="GTA V">
+                    <img src="./assets/linktree.png" alt="Linktree">
+                    <img src="./assets/tesla-img.jpeg" alt="Tesla">
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <div class="sobre-content">
+                <img src="./assets/WhatsApp Image 2024-08-02 at 23.55.47.jpeg" alt="Foto de perfil de Guilherme Vieira" class="profile-pic">
+                <div class="sobre-text">
+                    <p>Com uma sólida experiência em desenvolvimento web, estou sempre buscando desafios que me permitam
+                        aplicar minhas habilidades em HTML, CSS e JavaScript para criar experiências digitais excepcionais.
+                        Possuo conhecimentos em design responsivo e acessibilidade web. Estou sempre em busca de novos desafios e
+                        oportunidades para expandir meu conhecimento e habilidades.</p>
+                    <p>Se você está procurando um desenvolvedor front-end dedicado e apaixonado, estou pronto para contribuir para o sucesso do seu projeto!</p>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skill-card" id="html-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Estruturação e marcação de conteúdo web.</p>
+                </div>
+                <div class="skill-card" id="css-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Estilização e design responsivo de páginas web.</p>
+                </div>
+                <div class="skill-card" id="js-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Programação e interatividade com JavaScript.</p>
+                </div>
+                <div class="skill-card" id="react-card">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <p>Desenvolvimento de interfaces dinâmicas.</p>
+                </div>
+                <div class="skill-card" id="bootstrap-card">
+                    <i class="fab fa-bootstrap"></i>
+                    <h3>Bootstrap</h3>
+                    <p>Framework CSS para design responsivo.</p>
+                </div>
+                <div class="skill-card" id="tailwind-card">
+                    <i class="fab fa-css3"></i>
+                    <h3>Tailwind CSS</h3>
+                    <p>Framework CSS utilitário.</p>
+                </div>
+                <div class="skill-card" id="git-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git e GitHub</h3>
+                    <p>Controle de versão e colaboração em projetos.</p>
+                </div>
+                <div class="skill-card" id="node-card">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                    <p>Construção de servidores web rápidos e escaláveis.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="projeto-grid" id="projeto-container">
+                <!-- Projetos serão adicionados dinamicamente via JavaScript -->
+            </div>
+            <div class="ver-mais">
+                <button id="ver-mais-projetos" class="btn">Ver Mais Projetos</button>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2 class="centered">Entre em Contato</h2>
+            <div class="social-links">
+                <a href="https://github.com/guilhermevieira1998" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/guilherme-vieira-de-barros/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/g.vieira98/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5521997724985" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Guilherme Vieira. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
